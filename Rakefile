@@ -1,5 +1,5 @@
-require "bundler/gem_tasks"
-require 'rspec/core/rake_task'
+require "key/dailey_challenge"
+require 'rspec/core/daily_task'
 
 RSpec::Core::RakeTask.new(:spec)
 
